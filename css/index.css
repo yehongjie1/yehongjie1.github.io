@@ -1,0 +1,103 @@
+/*头部导航栏开始啦*/
+.header {
+	height: 50px;
+	background-color: #5e5d65;
+	font-family: "icomoon";
+}
+.hd_inner {
+	width: 1300px;
+	height: 50px;
+	background-color: #5e5d65;
+	margin: 0 auto;
+}
+.hd_inner li {
+	list-style: none;
+	float: left;
+	display: block;
+	height: 50px;
+	margin-left: 30px;
+	line-height: 50px;
+}
+.hd_inner a {
+	text-decoration: none;
+	color: #f5a23a;
+	font-size: 16px;
+	padding: 0 5px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 4px;
+}
+.hd_inner a:hover {
+	background-color: #f5a23a;
+	color: #5e5d65;
+}
+/*头部导航栏结束啦*/
+
+/*轮播图开始啦*/
+.banner {
+	width: 1680px;
+	height: 945px;
+	margin: 0 auto;
+	position: relative;
+}
+.imgList {
+	width: 992px;
+	height: 420px;
+	position: relative;
+}
+.imgList li {
+	width: 992px;
+	height: 420px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.btnList {
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	bottom: 10px;
+}
+.btnList li {
+	width: 30px;
+	height: 20px;
+	color: #fff;
+	background: rgba(0,0,0,0.3);
+	margin-right: 10px;
+    float: left;
+    text-align: center;
+    line-height:20px;
+    border: 1px solid #CCC;
+    cursor: pointer;
+} 
+.btnList li.current {
+	background: rgba(0,0,0,0.65);
+}
+.leftBtn,.rightBtn {
+	width: 41px;
+	height: 69px;
+	position: absolute;
+	top: 50%;
+	margin-top: -35px;
+	background: url(images/xiaomi/left.gif) no-repeat center center rgba(0,0,0,.65);
+	display: none;
+	cursor: pointer;
+	font-family: "icomoon";
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+	line-height: 69px;
+}
+.leftBtn {
+	left: 0;
+}
+.rightBtn {
+	right: 0;
+	background-image: url(images/xiaomi/right.gif);
+}
+.banner:hover .leftBtn,.banner:hover .rightBtn {
+	display: block;
+}
+/*轮播图结束啦*/
+
